@@ -1,11 +1,11 @@
 body {
   text-align: center;
-  background-color: rgb(250, 248, 109);
+  background-color: rgb(252, 249, 94);
 }
 
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(92, 74, 207);
+  color: rgb(72, 52, 202);
 }
 
 span {
@@ -29,7 +29,7 @@ input[type="button"] {
 #local {
   height: 30vh;
   width: 25%;
-  background-color: rgba(123, 230, 102, 0.473);
+  background-color: rgba(101, 223, 77, 0.473);
   float: left;
   margin-left: 20%;
   text-align: center;

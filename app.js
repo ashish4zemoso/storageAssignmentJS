@@ -1,6 +1,12 @@
-localStorage.clear()
-sessionStorage.clear()
+// localStorage.clear()
+// sessionStorage.clear()
 
+if(!localStorage.getItem('count')){
+    localStorage.setItem('count',0);
+}
+if(!sessionStorage.getItem('count')){
+    sessionStorage.setItem('count',0);
+}
 
 document.querySelector("#sessionCount").innerHTML = sessionStorage.getItem('count');
 document.querySelector("#localCount").innerHTML = localStorage.getItem('count');
@@ -36,5 +42,5 @@ function incSessionCount(){
 function decSessionCount(){
     let currSessionCount = parseInt(sessionStorage.getItem('count'));
     sessionStorage.setItem('count',currSessionCount-1);
-    document.querySelector('#sessionCount').innerHTML = currSessionCount+1;
+    document.querySelector('#sessionCount').innerHTML = currSessionCount-1;
 }
