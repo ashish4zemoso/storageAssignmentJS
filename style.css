@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: rgb(250, 248, 109);
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(92, 74, 207);
+}
+
+span {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 1.5rem;
+}
+
+input[type="button"] {
+  background-color: royalblue;
+  color: ghostwhite;
+  border: #000000 3px solid;
+  padding: 3%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  height: 10vh;
+  width: 10vh;
+}
+
+#local {
+  height: 30vh;
+  width: 25%;
+  background-color: rgba(123, 230, 102, 0.473);
+  float: left;
+  margin-left: 20%;
+  text-align: center;
+  border: #000000 3px solid;
+}
+
+#session {
+  height: 30vh;
+  width: 25%;
+
+  background-color: rgb(233, 116, 101);
+  float: left;
+  margin-left: 11%;
+  text-align: center;
+  border: #000000 3px solid;
+}
+
+p {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
